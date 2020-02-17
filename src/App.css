@@ -4,8 +4,9 @@
 }
 
 .scoreboard {
-  width: 58%;
-  margin: 10rem auto;
+  width: 100%;
+  max-width: 800px;
+  margin: 10rem auto 0;
   background-color: #0b5402;
   color: white;
   border-radius: 0.5rem;
@@ -64,6 +65,7 @@
 }
 
 .timer {
+  flex: 0 0 300px;
   font-family: "Ozone";
   font-size: 9rem;
   padding: 2rem;
@@ -107,7 +109,8 @@
 }
 
 .buttons {
-  width: 50%;
+  width: 100%;
+  max-width: 800px;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
