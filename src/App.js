@@ -24,7 +24,7 @@ function App() {
     setInterval(() => {
       setTimeString(getElapsedTime());
     }, 1000);
-  });
+  }, []);
 
   return (
     <div className="container">
