@@ -1,5 +1,4 @@
-import React from "react";
-import "./App.css";
+import React, { memo } from "react";
 
 const BottomRow = () => {
   return (
@@ -24,4 +23,4 @@ const BottomRow = () => {
   );
 };
 
-export default BottomRow;
+export default memo(BottomRow);
